@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pf/static/css/main.c0b451e4.css",
+    "main.js": "/pf/static/js/main.16894d8c.js",
+    "static/js/453.f706fe85.chunk.js": "/pf/static/js/453.f706fe85.chunk.js",
+    "static/media/site-sophie.png": "/pf/static/media/site-sophie.a1e3367b98c54e472a6e.png",
+    "static/media/site-seo.png": "/pf/static/media/site-seo.df46f74c533ed4718ba7.png",
+    "static/media/site-kasa.png": "/pf/static/media/site-kasa.58094fc3d4c88f570c7a.png",
+    "static/media/IMG_20230101_152028_285.jpg": "/pf/static/media/IMG_20230101_152028_285.42b1cc64677dd231b2bf.jpg",
+    "static/media/site-accueil.png": "/pf/static/media/site-accueil.e87fa0ca8424d772f277.png",
+    "static/media/site-grimoire.png": "/pf/static/media/site-grimoire.a052e9bbcbdc54b87731.png",
+    "index.html": "/pf/index.html",
+    "static/media/triangle2white.svg": "/pf/static/media/triangle2white.3210ac16554934a5d4eb.svg",
+    "static/media/triangle1white.svg": "/pf/static/media/triangle1white.13fda3436f898ec8aca0.svg",
+    "main.c0b451e4.css.map": "/pf/static/css/main.c0b451e4.css.map",
+    "main.16894d8c.js.map": "/pf/static/js/main.16894d8c.js.map",
+    "453.f706fe85.chunk.js.map": "/pf/static/js/453.f706fe85.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0b451e4.css",
+    "static/js/main.16894d8c.js"
+  ]
+}
