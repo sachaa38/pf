@@ -16,7 +16,7 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="*" element={<Error />} />
-        <Route path="/Accueil" element={<Home />} />
+        <Route path="/pf" element={<Home />} />
         <Route path="/Projet/:idProjet" element={<PresentationProjet />} />
       </Routes>
     </Router>
