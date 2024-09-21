@@ -6,7 +6,7 @@ function Return() {
 
     return(
         <div className="retour">
-            <Link to="/Accueil"><img src={arrowBack} atl="retour" /><span>Retour</span></Link>
+            <Link to="/pf"><img src={arrowBack} atl="retour" /><span>Retour</span></Link>
         </div>
     )
 }
