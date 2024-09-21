@@ -1,0 +1,40 @@
+
+.second-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5c2e37;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 150px;
+    padding : 0 30px;
+}
+
+
+
+.second-name-and-barreV {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+
+@media (max-width: 768px) {
+    
+.second-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px
+}
+
+
+
+.second-name-and-barreV {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+}

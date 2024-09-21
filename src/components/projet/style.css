@@ -1,0 +1,143 @@
+.section-projet {
+font-family: Arial, Helvetica, sans-serif;
+background: url("../../images/triangle1white.svg") no-repeat center top / 100%;
+background-color: #f8efed;}
+h2 {
+    margin-top: 0;
+text-align: center;
+}
+
+.content-projet {
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+justify-content: center;
+padding:  30px 90px 70px 90px;
+
+}
+
+.content-card-projet {
+display: flex;
+width: 45%;
+height: 100%;
+flex-direction: column;
+transition: all 450ms;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.content-card-projet:hover {
+transform: scale(1.05);
+}
+
+.card-haute {
+background-color: #5c2e37;
+
+
+}
+
+.title-and-label{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.circle {
+width: 28px;
+height: 28px;
+background-color: #2081d8;
+border-radius: 50%;
+cursor: pointer;
+position: relative;
+transition: width 0.5s ease, border-radius 0.5s ease;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+margin-right : 10px;
+}
+
+.circle:hover {
+width: 150px;
+border-radius: 0px;
+}
+
+.circle .label-projet {
+opacity: 0;
+white-space: nowrap;
+transition: opacity 0.5s ease;
+}
+
+.circle:hover .label-projet {
+opacity: 1;
+transform: translateX(0);
+}
+
+h3 {
+margin : 0;
+padding: 10px;
+color: #f8efed;
+}
+
+
+.img-and-link {
+    position: relative;
+}
+
+.img-and-link img {
+object-fit: cover;
+width: 100%;
+height: 260px;
+transition: opacity 450ms ease;
+
+}
+
+.img-and-link p {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+color: white;
+font-size: 18px;
+font-weight: bold;
+opacity: 0;
+transition: opacity 0.5s ease;
+display: flex;
+align-items: center;
+justify-content: center;
+margin : 0;
+margin-top: -1px;
+cursor: pointer;
+}
+
+.img-and-link:hover p {
+opacity: 1; 
+background-color: #5c2e37ec;
+
+}
+
+.competence-content {
+background-color: #e2dbed;
+padding: 15px;
+height: 100%;
+
+}
+
+.competence-content p {
+margin: 0;
+
+}
+
+@media (max-width: 768px) {
+    .content-projet {
+        padding:  10px 15px 70px 15px;
+        }
+        .content-card-projet {
+        width: 100%;
+        }
+    
+}
