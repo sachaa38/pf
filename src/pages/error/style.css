@@ -1,13 +1,27 @@
+<<<<<<< HEAD
 .msg {
+=======
+
+
+.error-contener {
+    position: relative;
+>>>>>>> d60df3e1514b59794e1b4070df1e52e0ab48426f
     display: flex;
     justify-content: center;
     align-items: center;
 }
+<<<<<<< HEAD
 .msg p {
     color: #2081d8;
+=======
+
+.msg-fr {
+    position: absolute;
+>>>>>>> d60df3e1514b59794e1b4070df1e52e0ab48426f
     font-size: 100px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
     margin: 0;
 
 
@@ -53,3 +67,7 @@
     }
 
 }
+=======
+    color: #2081d8;
+}
+>>>>>>> d60df3e1514b59794e1b4070df1e52e0ab48426f
