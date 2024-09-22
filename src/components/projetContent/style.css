@@ -37,13 +37,17 @@
     align-items: center;
 }
 
+.content-para-barre {
+    padding: 0 20px;
+}
+
 .projet-content .p-desc {
     font-size: 18px;
     margin-top: -5px;
 }
 
 .projet-content img {
-    width: 600px;
+    width: 80%;
 }
 
 .contener-competence {
@@ -77,6 +81,10 @@
         justify-content: center;
         align-items: center;
     }
+
+    .content-para-barre {
+        padding: 0;
+    }
     
     .projet-content .p-desc {
         padding: 0 20px;
@@ -90,6 +98,7 @@
     .contener-competence {
         flex-direction: column;
         align-items: center;
+        
     }
     
     .projet-competence-content {
@@ -97,6 +106,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 8px;
     }
     
 

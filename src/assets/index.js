@@ -1,8 +1,8 @@
-import photoAccueil from "../images/site-accueil.png";
-import photoSophie from "../images/site-sophie.png";
-import photoSeo from "../images/site-seo.png";
-import photoKasa from "../images/site-kasa.png";
-import photoGrimoire from "../images/site-grimoire.png"
+import photoAccueil from "../images/site-accueil.webp";
+import photoSophie from "../images/site-sophie.webp";
+import photoSeo from "../images/site-seo.webp";
+import photoKasa from "../images/site-kasa.webp";
+import photoGrimoire from "../images/site-grimoire.webp"
 
 
 export const projets = [
@@ -12,7 +12,8 @@ export const projets = [
         image: photoAccueil,
         competences: "HTML, CSS",
         formation: true,
-        id: "0"
+        id: "0",
+        lien: "https://sachaa38.github.io/siteaccueil/"
     },
     {
         titre:"Site Architecte d'interieur",
