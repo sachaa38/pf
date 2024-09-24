@@ -8,7 +8,7 @@ import photoGrimoire from "../images/site-grimoire.webp"
 export const projets = [
     {
         titre:"Site d'hébergement",
-        description:"Dans le cadre de ce projet, j'ai intégré l'interface du siteDans ce projet, j'ai eu l'opportunité de créer la page d'accueil d'une agence de voyage en utilisant uniquement HTML et CSS. Mon objectif principal était d'intégrer une interface responsive pour le site, en suivant les maquettes fournies via Figma pour les versions mobile, tablette, et desktop. L'un des défis était d'écrire mon propre code HTML et CSS sans recourir aux outils d'exportation automatique de Figma. Cela m'a permis de mieux comprendre la structure du code et la manière d'adapter les styles pour respecter les exigences du design tout en garantissant une flexibilité sur différentes tailles d'écran. Ce projet m'a aidé à renforcer mes compétences en design responsive et m'a permis d'assurer une expérience utilisateur cohérente, peu importe le type d'appareil utilisé.",
+        description:"Dans ce projet, j'ai eu l'opportunité de créer la page d'accueil d'une agence de voyage en utilisant uniquement HTML et CSS. Mon objectif principal était d'intégrer une interface responsive pour le site, en suivant les maquettes fournies via Figma pour les versions mobile, tablette, et desktop. L'un des défis était d'écrire mon propre code HTML et CSS sans recourir aux outils d'exportation automatique de Figma. Cela m'a permis de mieux comprendre la structure du code et la manière d'adapter les styles pour respecter les exigences du design tout en garantissant une flexibilité sur différentes tailles d'écran. Ce projet m'a aidé à renforcer mes compétences en design responsive et m'a permis d'assurer une expérience utilisateur cohérente, peu importe le type d'appareil utilisé.",
         image: photoAccueil,
         competences: "HTML, CSS",
         formation: true,
@@ -41,7 +41,7 @@ export const projets = [
         id: "3"
     },
     {
-        titre:"Site d'hébergement",
+        titre:"Site de notation de livres",
         description:"Dans ce projet, j'ai développé le back-end d'un site de notation de livres en utilisant Express pour créer le serveur et en le connectant à une base de données MongoDB. Mon rôle a impliqué la mise en place de la structure du serveur et la gestion de la communication entre le serveur et la base de données. J'ai conçu les modèles de données et implémenté des opérations CRUD (Créer, Lire, Mettre à jour, Supprimer) pour la gestion des livres et des notations, en accordant une attention particulière à la sécurité des données et à leur stockage sécurisé. J'ai également mis en place un système d'authentification sécurisé pour les utilisateurs du site. Le projet a inclus la gestion du téléchargement et de l'optimisation des images, ainsi que l'ajout de fonctionnalités pour noter les livres et calculer la note moyenne. J'ai veillé à respecter les bonnes pratiques du Green Code pour minimiser l'empreinte écologique du site. Pour compléter le projet, j'ai utilisé Mongoose pour modéliser les données MongoDB et j'ai suivi une architecture MVC (Modèle-Vue-Contrôleur) pour structurer l'application de manière efficace et maintenable.",
         image: photoGrimoire,
         competences: "JavaScript, MongoDB",
@@ -51,3 +51,29 @@ export const projets = [
 ]
 
 export default projets
+
+export const competencesAcquises = [
+    "Intégrer du contenu conformément à une maquette avec HTML et CSS",
+    "Implémenter une interface responsive avec HTML et CSS",
+    "Récupérer les données utilisateurs dans le JavaScript via des formulaires",
+    "Manipuler les éléments du DOM avec JavaScript",
+    "Gérer les événements utilisateurs avec JavaScript",
+    "Optimiser les performances d’un site web",
+    "Débugger un site web grâce aux Chrome DevTools",
+    "Rédiger un cahier de recette pour tester un site",
+    "Configurer la navigation entre les pages de l'application avec React Router",
+    "Initialiser une application avec Create React App",
+    "Développer des éléments de l'interface d'un site web grâce à des composants React",
+    "Implémenter un modèle logique de données conformément à la réglementation",
+    "Mettre en œuvre des opérations CRUD de manière sécurisée",
+    "Stocker des données de manière sécurisée",
+    "Suivre le déroulement du projet grâce à un outil de gestion de projet",
+    "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
+    "Découper une fonctionnalités en tâches pour préparer le développement",
+    "Présenter la solution technique",
+    "Mettre en place une méthode de veille technologique",
+    "Versionner son projet avec Git et Github",
+    "Installer un environnement de développement front-end",
+    "Déployer un site statique en ligne",
+    
+]

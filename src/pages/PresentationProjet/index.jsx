@@ -9,7 +9,6 @@ function PresentationProjet() {
     return(
         <div>
             <SecondHeader />
-            <Return />
             <ProjetContent />
             <Contact />
 

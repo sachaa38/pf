@@ -1,5 +1,6 @@
 import "./style.css"
 import photopp from '../../images/IMG_20230101_152028_285.webp'
+import { Link } from "react-router-dom"
 
 function Description() {
 
@@ -18,11 +19,13 @@ function Description() {
                                 </p>
                                 <p>Je me porte garant du bon fonctionnement de vos <b>sites WEB</b>.
                                 </p>
+                                <Link to="/A-propos">En savoir plus</Link>
                         </div>
                     </div>
                 </div>
                 
                 <img className="photo-description" src={photopp} alt="Photo de Sacha Antoniotto" />
+                
                 
             </div>
 
