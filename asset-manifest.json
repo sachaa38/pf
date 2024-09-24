@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pf/static/css/main.f20e6c28.css",
-    "main.js": "/pf/static/js/main.4ea879b3.js",
+    "main.css": "/pf/static/css/main.a1a58124.css",
+    "main.js": "/pf/static/js/main.d249a342.js",
     "static/js/453.f706fe85.chunk.js": "/pf/static/js/453.f706fe85.chunk.js",
     "static/media/site-kasa.webp": "/pf/static/media/site-kasa.8ae9b264a34ae86cce84.webp",
     "static/media/site-grimoire.webp": "/pf/static/media/site-grimoire.82cb4498c10087512bf3.webp",
@@ -12,12 +12,12 @@
     "index.html": "/pf/index.html",
     "static/media/triangle2white.svg": "/pf/static/media/triangle2white.3210ac16554934a5d4eb.svg",
     "static/media/triangle1white.svg": "/pf/static/media/triangle1white.13fda3436f898ec8aca0.svg",
-    "main.f20e6c28.css.map": "/pf/static/css/main.f20e6c28.css.map",
-    "main.4ea879b3.js.map": "/pf/static/js/main.4ea879b3.js.map",
+    "main.a1a58124.css.map": "/pf/static/css/main.a1a58124.css.map",
+    "main.d249a342.js.map": "/pf/static/js/main.d249a342.js.map",
     "453.f706fe85.chunk.js.map": "/pf/static/js/453.f706fe85.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f20e6c28.css",
-    "static/js/main.4ea879b3.js"
+    "static/css/main.a1a58124.css",
+    "static/js/main.d249a342.js"
   ]
 }
