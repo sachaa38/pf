@@ -4,3 +4,145 @@ html {
 body {
     margin: 0;
 }
+
+.section-projet h2, .card {
+    animation: reveal linear;
+    animation-timeline: view();
+    animation-range: cover 0% contain 20%;
+}
+
+@keyframes reveal {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.header-contact-and-barreV,.description-content, .content-img-and-info {
+    animation: appear-right 1s ease-out;
+}
+.section-vide { 
+    animation: appear-left 1s ease-out;
+}
+
+
+
+
+@keyframes appear-left {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes appear-right {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+.projet-contener h1 {
+    animation: fall-up 1s ease-out;
+}
+
+.projet-contener .barre-h {
+    animation: fall-left 1s ease-out;
+} 
+
+.projet-contener h2 {
+    animation: fall-right 1s ease-out;
+}
+
+@keyframes fall-up {
+    from {
+        transform: translateY(-200%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes fall-left {
+    from {
+        transform: translateX(-300%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+@keyframes fall-right {
+    from {
+        transform: translateX(300%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+
+
+.second-name-and-barreV {
+    overflow: hidden;
+
+}
+
+.second-name-and-barreV .barre-v {
+    animation: barreBleu 1s ease-out;
+
+}
+
+@keyframes barreBleu {
+    from {
+        transform: scaleX(150);
+    }
+    to {
+        transform: scaleX(1);
+    }
+}
+
+.arrow-car.R:active {
+    animation: moveR 0.3s ease;
+}
+
+.arrow-car.L:active {
+    animation: moveL 0.3s ease;
+}
+
+@keyframes moveR {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes moveL {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}

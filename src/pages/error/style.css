@@ -1,27 +1,20 @@
-<<<<<<< HEAD
-.msg {
-=======
-
-
 .error-contener {
-    position: relative;
->>>>>>> d60df3e1514b59794e1b4070df1e52e0ab48426f
     display: flex;
     justify-content: center;
     align-items: center;
 }
-<<<<<<< HEAD
+
 .msg p {
     color: #2081d8;
-=======
+    font-size: 100px;
+    text-align: center;
+}
 
 .msg-fr {
     position: absolute;
->>>>>>> d60df3e1514b59794e1b4070df1e52e0ab48426f
     font-size: 100px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
     margin: 0;
 
 
@@ -32,11 +25,11 @@
     25% { color: blue; }
     50% { color: green; }
     75% { color: orange; }
-    100% { color: red; } /* Retour à la couleur de départ */
+    100% { color: red; } 
 }
 
 .msg span {
-    animation: colorChange 3s infinite; /* 3 secondes de durée, répété à l'infini */
+    animation: colorChange 3s infinite;
 }
 
 .quatre {
@@ -44,7 +37,7 @@
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    height: 400px;
+    height: 300px;
 }
 #quatre {
     font-size: 150px;
@@ -63,11 +56,8 @@
         font-size: 50px;
        
     
-    
     }
 
 }
-=======
-    color: #2081d8;
-}
->>>>>>> d60df3e1514b59794e1b4070df1e52e0ab48426f
+    
+

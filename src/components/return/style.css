@@ -2,10 +2,14 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     display: block;
-    margin: 5px 0 30px 10px;
+    margin: 0px 0 30px 10px;
     width: 100px;
-    background-color: white;
     transition: 450ms ease;
+    padding-top : 45px;
+    color: white
+
+
+    
 }
 
 .retour img {
@@ -15,7 +19,7 @@
 
 .retour a {
     text-decoration:none;
-    color: rgb(0, 0, 0);
+    color: white;
     
 }
 
