@@ -1,10 +1,9 @@
 .section-projet {
 font-family: Arial, Helvetica, sans-serif;
-background: url("../../images/triangle1white.svg") no-repeat center top / 100%;
-background-color: #f8efed;}
+}
 h2 {
     margin-top: 0;
-text-align: center;
+    text-align: center;
 }
 
 .content-projet {
@@ -19,16 +18,15 @@ padding:  30px 90px 70px 90px;
 .card {
 display: flex;
 width: 45%;
-height: 100%;
+max-width: 400px;
+height: min-content;
 flex-direction: column;
+padding: 15px;
 transition: all 450ms;
-
+box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
 
 }
 
-.card:hover {
-transform: scale(1.05);
-}
 
 
 .title-and-label{
@@ -36,112 +34,74 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: space-between;
-border: #5c2e37 solid 1px;
 margin-bottom: 4px;
-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-
 }
 
-.circle {
-width: 28px;
-height: 28px;
-background-color: #2081d8;
-border-radius: 50%;
-cursor: pointer;
-position: relative;
-transition: width 0.5s ease, border-radius 0.5s ease;
-overflow: hidden;
-display: flex;
-align-items: center;
-justify-content: center;
-color: white;
-margin-right : 10px;
-}
-
-.circle:hover {
-width: 150px;
-border-radius: 0px;
-}
-
-.circle .label-projet {
-opacity: 0;
-white-space: nowrap;
-transition: opacity 0.5s ease;
-}
-
-.circle:hover .label-projet {
-opacity: 1;
-transform: translateX(0);
-}
 
 h3 {
-margin : 0;
-padding: 10px;
-color: #19090c;
+    margin : 0;
+    padding-top: 30px;
+    width: 100%;
+    color: #19090c;
+    text-align: center;
 
 }
 
-
-.img-and-link {
-    position: relative;
-    border: #5c2e37 solid 1px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-    margin-bottom: 4px;
+.projet-desc-min {
+    display: flex;
+    margin: 30px 0px;
+    justify-content: flex-start;
 }
 
-.img-and-link img {
-object-fit: cover;
-width: 100%;
-height: 260px;
-transition: opacity 450ms ease;
-
-}
-
-.img-and-link p {
-position: absolute;
-width: 100%;
-height: 100%;
-top: 0;
-left: 0;
-color: white;
-font-size: 18px;
-font-weight: bold;
-opacity: 0;
-transition: opacity 0.5s ease;
-display: flex;
-align-items: center;
-justify-content: center;
-margin : 0;
-margin-top: 0px;
-
-cursor: pointer;
-
-}
-
-.img-and-link:hover p {
-opacity: 1; 
-background-color: #5c2e37ec;
-
-
+.projet-desc-min p {
+    margin:0;
 }
 
 .competence-content {
-background-color: #e2dbed;
-padding: 15px;
-border: #5c2e37 solid 1px;
-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 
-
+display: flex;
+flex-direction: column;
+gap: 30px;
+align-items: flex-end;
 }
-
 .competence-content p {
 margin: 0;
 
 }
 
+.content-logo {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.content-logo img {
+    width: 30px;
+}
+
+.competence-content a {
+    color: #2081d8;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 250ms ease;
+}
+
+.competence-content a:hover {
+    transform: scale(1.05);
+    transition: 250ms ease;
+}
+
+
 @media (max-width: 768px) {
     .content-projet {
-        padding:  10px 15px 70px 15px;
+        padding:  10px 15px 0px 15px;
+        }
+
+        .section-projet h2 {
+            margin-bottom: 15px;
         }
         .card {
         width: 100%;

@@ -42,12 +42,20 @@
 #quatre {
     font-size: 150px;
     font-weight: bold;
-    color: #5c2e37;
+    color: #2081d8;
     transition: scale 3s ease;
 }
 
 #quatre:hover {
     scale: 3;
+}
+
+.divRetourError {
+    background-color: #2081d8;
+    width: 120px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+ 
 }
 
 @media (max-width: 768px) {

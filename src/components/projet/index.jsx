@@ -12,18 +12,22 @@ function SectionProjet() {
                 {projets.map((projet, index) => (
 
                     <div key={index} className="card">
-                        <div className="img-and-link">
-                                <img className="img-card" src={projet.image}/>
-                                <Link to={`/Projet/${projet.id}`}><p>En savoir plus</p></Link>
-                            </div>
+                    
                             <div className="title-and-label">
                                 <h3>{projet.titre}</h3>
-                                <div className="circle">
-                                {projet.formation && <p className="label-projet">Projet formation</p>}
-                                </div>
+                            </div>
+                            <div className="projet-desc-min">
+                                <p>{projet.desc}</p>
                             </div>
                             <div className="competence-content">
-                        <p><b>Compétences techniques :</b> {projet.competences}</p>
+                                <div className="content-logo">
+                                {projet.logoComp.map((logo, indexLogo) => (
+                                    
+                                        <img key={indexLogo} src={logo} />
+                                   
+                                ))} </div>
+                        {/* <p><b>Compétences techniques :</b> {projet.competences}</p> */}
+                        <Link to={`/Projet/${index}`}><p>En savoir plus</p></Link>
                         </div>
                     </div>
                 ))}

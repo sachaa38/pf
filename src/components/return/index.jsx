@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import "./style.css"
-import arrowBack from "../../images/retour.png"
+import arrowBack from "../../images/arrow-left.png"
 
 function Return() {
 

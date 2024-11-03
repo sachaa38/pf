@@ -1,6 +1,7 @@
 import photopp from "../../images/IMG_20230101_152028_285.webp"
 import Button from "../button"
 import "./style.css"
+import paint1 from "../../images/paint1.svg"
 function Header() { 
     return (
         <div className="header">
@@ -15,7 +16,9 @@ function Header() {
                  
                 <div className="content-info">
                     <img className="img-header" src = {photopp} alt="Sacha Antoniotto"></img>
+                    
                     <p className="name">Sacha Antoniotto</p>
+               
                     <p className="job">Développeur freelance | Junior et motivé</p>
                     <Button />
                     

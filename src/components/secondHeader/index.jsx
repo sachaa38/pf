@@ -1,6 +1,5 @@
 import "./style.css"
 import Button from "../button"
-import SectionVide2 from "../sectionVide2"
 
 
 function SecondHeader() {
@@ -17,7 +16,6 @@ function SecondHeader() {
                 <Button />
             </div>
         </div>
-        <SectionVide2 />
         
         </div>
     )
