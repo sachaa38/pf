@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/pf/static/css/main.0f801341.css",
-    "main.js": "/pf/static/js/main.df52cfe3.js",
+    "main.css": "/pf/static/css/main.29700032.css",
+    "main.js": "/pf/static/js/main.bd2bdc2e.js",
     "static/js/453.f706fe85.chunk.js": "/pf/static/js/453.f706fe85.chunk.js",
     "static/media/videomonvieuxgrimoire.mp4": "/pf/static/media/videomonvieuxgrimoire.140b1fd0dffeda856192.mp4",
     "static/media/videoKasa.mp4": "/pf/static/media/videoKasa.f4565898ea93f605bc78.mp4",
     "static/media/videoTableauDeBord.mp4": "/pf/static/media/videoTableauDeBord.02385f933195f3ee9f9a.mp4",
-    "static/media/paint1.svg": "/pf/static/media/paint1.c430ddf2d4873bde9ee1d813565ab991.svg",
     "static/media/IMG_20230101_152028_285.webp": "/pf/static/media/IMG_20230101_152028_285.2a5c32da2f3b2eb9a7d4.webp",
     "static/media/reactLogo.webp": "/pf/static/media/reactLogo.9148c9151b12265aedab.webp",
     "static/media/sassLogo.webp": "/pf/static/media/sassLogo.fb6570b46137cf7e1a37.webp",
@@ -17,12 +16,12 @@
     "static/media/git.webp": "/pf/static/media/git.54739c005a6576c86c0b.webp",
     "static/media/githubLogo.webp": "/pf/static/media/githubLogo.b17e13aa3ad6c13a6761.webp",
     "index.html": "/pf/index.html",
-    "main.0f801341.css.map": "/pf/static/css/main.0f801341.css.map",
-    "main.df52cfe3.js.map": "/pf/static/js/main.df52cfe3.js.map",
+    "main.29700032.css.map": "/pf/static/css/main.29700032.css.map",
+    "main.bd2bdc2e.js.map": "/pf/static/js/main.bd2bdc2e.js.map",
     "453.f706fe85.chunk.js.map": "/pf/static/js/453.f706fe85.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f801341.css",
-    "static/js/main.df52cfe3.js"
+    "static/css/main.29700032.css",
+    "static/js/main.bd2bdc2e.js"
   ]
 }
