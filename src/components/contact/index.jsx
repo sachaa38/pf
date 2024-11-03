@@ -9,7 +9,7 @@ function Contact() {
             <h2>Parlons de votre projet</h2>
             <div className="img-and-text-footer">
             <div className="img-contact">
-                <img src={photopp} alt="Photo de Sacha Antoniotto" />
+                <img src={photopp} alt="Sacha Antoniotto" />
             </div>
             <div className="barre-v"></div>
             <div className="info-contact-content">

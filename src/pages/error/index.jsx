@@ -1,6 +1,5 @@
 import Return from "../../components/return"
 import "./style.css"
-import { Link } from "react-router-dom"
 
 function Error() {
     return(

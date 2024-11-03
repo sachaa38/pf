@@ -23,7 +23,7 @@ function SectionProjet() {
                                 <div className="content-logo">
                                 {projet.logoComp.map((logo, indexLogo) => (
                                     
-                                        <img key={indexLogo} src={logo} />
+                                        <img key={indexLogo} src={logo} alt="logo" />
                                    
                                 ))} </div>
                         {/* <p><b>Compétences techniques :</b> {projet.competences}</p> */}
