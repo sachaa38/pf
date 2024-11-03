@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/pf/static/css/main.a1a58124.css",
-    "main.js": "/pf/static/js/main.d249a342.js",
+    "main.css": "/pf/static/css/main.0f801341.css",
+    "main.js": "/pf/static/js/main.df52cfe3.js",
     "static/js/453.f706fe85.chunk.js": "/pf/static/js/453.f706fe85.chunk.js",
-    "static/media/site-kasa.webp": "/pf/static/media/site-kasa.8ae9b264a34ae86cce84.webp",
-    "static/media/site-grimoire.webp": "/pf/static/media/site-grimoire.82cb4498c10087512bf3.webp",
-    "static/media/site-sophie.webp": "/pf/static/media/site-sophie.b64cbc916f8dcfc50634.webp",
-    "static/media/site-seo.webp": "/pf/static/media/site-seo.0a7774aba81354917400.webp",
-    "static/media/site-accueil.webp": "/pf/static/media/site-accueil.644d71c08879127eb258.webp",
+    "static/media/videomonvieuxgrimoire.mp4": "/pf/static/media/videomonvieuxgrimoire.140b1fd0dffeda856192.mp4",
+    "static/media/videoKasa.mp4": "/pf/static/media/videoKasa.f4565898ea93f605bc78.mp4",
+    "static/media/videoTableauDeBord.mp4": "/pf/static/media/videoTableauDeBord.02385f933195f3ee9f9a.mp4",
+    "static/media/paint1.svg": "/pf/static/media/paint1.c430ddf2d4873bde9ee1d813565ab991.svg",
     "static/media/IMG_20230101_152028_285.webp": "/pf/static/media/IMG_20230101_152028_285.2a5c32da2f3b2eb9a7d4.webp",
+    "static/media/reactLogo.webp": "/pf/static/media/reactLogo.9148c9151b12265aedab.webp",
+    "static/media/sassLogo.webp": "/pf/static/media/sassLogo.fb6570b46137cf7e1a37.webp",
+    "static/media/mongoLogo.webp": "/pf/static/media/mongoLogo.d74793c3cf7c683b656d.webp",
+    "static/media/JavaScript-logo.png": "/pf/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png",
+    "static/media/pythonLogo.webp": "/pf/static/media/pythonLogo.4d71c31876293c48fe55.webp",
+    "static/media/nodeLogo.webp": "/pf/static/media/nodeLogo.ab55f1c5987a8f988b93.webp",
+    "static/media/git.webp": "/pf/static/media/git.54739c005a6576c86c0b.webp",
+    "static/media/githubLogo.webp": "/pf/static/media/githubLogo.b17e13aa3ad6c13a6761.webp",
     "index.html": "/pf/index.html",
-    "static/media/triangle2white.svg": "/pf/static/media/triangle2white.3210ac16554934a5d4eb.svg",
-    "static/media/triangle1white.svg": "/pf/static/media/triangle1white.13fda3436f898ec8aca0.svg",
-    "main.a1a58124.css.map": "/pf/static/css/main.a1a58124.css.map",
-    "main.d249a342.js.map": "/pf/static/js/main.d249a342.js.map",
+    "main.0f801341.css.map": "/pf/static/css/main.0f801341.css.map",
+    "main.df52cfe3.js.map": "/pf/static/js/main.df52cfe3.js.map",
     "453.f706fe85.chunk.js.map": "/pf/static/js/453.f706fe85.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1a58124.css",
-    "static/js/main.d249a342.js"
+    "static/css/main.0f801341.css",
+    "static/js/main.df52cfe3.js"
   ]
 }
