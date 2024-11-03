@@ -1,7 +1,6 @@
 import Home from './pages/home';
 import Error from './pages/error';
 import PresentationProjet from './pages/PresentationProjet';
-import ScrollToTop from './components/ScollToTop';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './pages/apropos';
 import './style.css'
@@ -10,7 +9,6 @@ function App() {
   return (
     
     <Router>
-      <ScrollToTop />
       <Routes>
         <Route path="*" element={<Error />} />
         <Route path="/pf" element={<Home />} />

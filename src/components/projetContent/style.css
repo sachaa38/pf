@@ -42,17 +42,20 @@
     text-align: center;
     margin: 0;
     font-size: 42px;
-
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
+    padding : 10px 25px;
 }
 
 .barre-h {
     width: 250px;
-    height: 2px;
+    height: 4px;
     background-color: #2081d8;
+    margin-bottom: 65px;
 }
 
 .projet-contener h2 {
     font-size: 34px;  
+    margin: 0;
 }
 
 .projet-content {
@@ -71,35 +74,38 @@
     margin-top: -5px;
 }
 
-.projet-content img {
+.imgProjet {
     width: 80%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.contener-competence {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-
-}
 
 .projet-competence-content {
-    margin: 50px 0 50px 80px;
+    margin: 50px 0 50px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
 
 }
 
 #tech-utilise {
     padding: 10px 20px;
-    background-color: #5c2e37;
-    color: white;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-#competence-utilise {
+.competence-utilise {
+    display: flex;
+    align-items: center;
+    gap: 20px;
     padding: 10px 20px;
-    background-color: #2081d8;
     color: white;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
+    
+}
+
+.competence-utilise img {
+    width: 30px;
 }
 
 @media (max-width: 768px) {
@@ -125,30 +131,37 @@
     .projet-contener h1 {
         text-align: center;
         margin: 0;
-        font-size: 34px;
+        font-size: 28px;
     
     }
     
     .projet-contener h2 {
-        font-size: 28px;  
+        font-size: 24px; 
+  
     }
 
     .content-para-barre {
         padding: 0;
     }
+
+    .barre-h {
+        margin-bottom: 40px;
+    }
     
     .projet-content .p-desc {
         padding: 0 20px;
         text-align: justify;
+        font-size: 15px;
     }
     
-    .projet-content img {
+    .projet-content video {
         width: 300px;
     }
     
     .contener-competence {
         flex-direction: column;
         align-items: center;
+        margin-top: 20px;
         
     }
     
@@ -159,6 +172,13 @@
         align-items: center;
         gap: 8px;
     }
-    
+
+    .competence-utilise img {
+        width: 30px;
+    }
+    #p-video {
+        padding: 0 15px;
+        text-align: center;
+    }
 
 }
