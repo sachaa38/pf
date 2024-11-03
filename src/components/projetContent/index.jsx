@@ -3,7 +3,7 @@ import projets from "../../assets"
 import "./style.css"
 import arrLeft from "../../images/arrow-left.png"
 import arrRight from "../../images/arrow-right.png"
-import { useState, useEffect } from "react"
+import { useEffect } from "react"
 import { Link } from "react-router-dom"
 
 
@@ -41,7 +41,7 @@ function ProjetContent() {
                 <div className="projet-competence-content">
                     <span id="tech-utilise">Technologie utilisées</span> 
                     <div className="competence-utilise">{projet.logoComp.map((logo, index) => (
-                        <img key={index} src={logo} />
+                        <img key={index} src={logo} alt="logo" />
                 ))}</div>
                 </div>
                 </div>

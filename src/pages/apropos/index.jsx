@@ -1,9 +1,7 @@
 import SecondHeader from "../../components/secondHeader"
 import Contact from "../../components/contact"
 import Return from "../../components/return"
-import { competencesAcquises } from "../../assets"
 import "./style.css"
-import Collapse from "../../components/collapse"
 
 function About() {
 

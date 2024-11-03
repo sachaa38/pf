@@ -1,4 +1,3 @@
-import projets from "../../assets"
 import ProjetContent from "../../components/projetContent"
 import Return from "../../components/return"
 import SecondHeader from "../../components/secondHeader"
