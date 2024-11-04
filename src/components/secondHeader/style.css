@@ -3,11 +3,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    background-color: rgb(19, 19, 52);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     height: 100px;
     padding : 0 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     
 }
 
@@ -18,6 +19,11 @@
     flex-direction: row;
     align-items: center;
     gap: 20px;
+    
+}
+
+.second-name-and-barreV .name {
+    color: white;
 }
 
 
@@ -28,6 +34,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 15px;
+    padding-bottom: 15px;
 }
 
 

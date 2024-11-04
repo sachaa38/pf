@@ -10,7 +10,7 @@ function Home() {
     return(
 <div>
     <Header />
-    <Description />
+    {/* <Description /> */}
     <Techno />
     <SectionProjet />
     <Contact />
