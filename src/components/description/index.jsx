@@ -19,7 +19,6 @@ function Description() {
                                 </p>
                                 <p>Je me porte garant du bon fonctionnement de vos <b>sites WEB</b>.
                                 </p>
-                                <Link to="/A-propos">En savoir plus</Link>
                         </div>
                     </div>
                 </div>

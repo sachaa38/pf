@@ -25,14 +25,14 @@ function ProjetContent() {
             <div className="projet-arrow-and-title">
                     <Link to={`/Projet/${previousId}`}><img className="arrow-car L"  src={arrLeft} alt="Projet-précendant" /></Link>
                 <div className="titre-and-barreH">
-                    <h1>Portfolio</h1>
+                <h2>{projet.titre}</h2>
                     
                 </div>
                 <Link to={`/Projet/${nextId}`}><img className="arrow-car R" src={arrRight} alt="Projet-précendant" /></Link>
             </div>
             <div className="projet-content">
-                <h2>{projet.titre}</h2>
-                <div className="barre-h"></div>
+                
+                {/* <div className="barre-h"></div> */}
                 <div className="content-para-barre">
                     <div className="barre-v"></div>
                     <div className="p-desc">{projet.description}</div>

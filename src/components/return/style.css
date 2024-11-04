@@ -1,8 +1,8 @@
 .retour {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     display: block;
-    margin: 0px 0 30px 10px;
+    margin: 8px 0 0px 10px;
     width: 100px;
     transition: 450ms ease;
     color: rgb(0, 0, 0)
@@ -12,7 +12,7 @@
 }
 
 .retour img {
-    width: 18px;
+    width: 16px;
     padding-right: 5px;
 }
 
@@ -30,7 +30,7 @@
     .retour {
         
         font-size: 12px;
-        margin: 0px 0 30px 10px;
+        margin: 10px 0 0px 10px;
         width: 80px;
         transition: 450ms ease;
         color: rgb(0, 0, 0)
@@ -38,6 +38,7 @@
     
         
     }
+    
     
     .retour img {
         width: 14px;
