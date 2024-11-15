@@ -89,28 +89,9 @@
 
 .text-img-content img {
     border: 2px white solid;
-    transition: 250ms ease;
+    transition: photo 250ms ease;
 }
 
-.text-img-content img:hover {
-    animation: photo 2s ease infinite;
-    transition: 250ms ease;
-}
-
-@keyframes photo {
-    0% {
-        border-radius: 190px;
-        transform: rotateY(0deg);
-    }
-    50% {
-        border-radius: 190px;
-        transform: rotateY(180deg);
-    }
-    100% {
-        border-radius: 190px;
-        transform: rotateY(360deg);
-    }
-}
 
 @media (max-width: 768px) {
     
