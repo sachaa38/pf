@@ -34,22 +34,50 @@ function ProjetContent() {
                 
                 {/* <div className="barre-h"></div> */}
                 <div className="content-para-barre">
-                    <div className="barre-v"></div>
-                    <div className="p-desc">{projet.description}</div>
+                    <div className="sectionDesc">
+                        <div className="divObj">
+                            <h3>Contexte & Objectif</h3>
+                            <div className="divScroll">
+                            {projet.obj.map((obj, index) => (
+                                <p>{obj}</p>
+                            ))}
+                            </div>
+                        </div>
+                        <div className="divTache">
+                            <h3>Tâches réalisées</h3>
+                            <div className="divScroll">
+                            {projet.tache.map((tache, index) => (
+                                <p>{tache}</p>
+                            ))}
+                            </div>
+                        </div>
+                        {projet.fonction && (
+                            <div className="divFonct">
+                                <h3>Fonctionnalités</h3>
+                                <div className="divScroll">
+                                {projet.fonction.map((fonct, index) => (
+                                    <p>{fonct}</p>
+                                    
+                                ))}
+                                </div>
+                            </div>
+                    )}
+                    </div>
                 </div>
                 <div className="contener-competence">
                 <div className="projet-competence-content">
-                    <span id="tech-utilise">Technologie utilisées</span> 
                     <div className="competence-utilise">{projet.logoComp.map((logo, index) => (
                         <img key={index} src={logo} alt="logo" />
                 ))}</div>
                 </div>
                 </div>
+                <div className="divVideo">
+                    <h3>Présentation vidéo du projet</h3>
                 <video width="600" controls key={projet.video}>
                     <source src={projet.video} type="video/mp4" />
                     Votre navigateur ne supporte pas la balise vidéo.
                 </video>
-                <p id="p-video">N'hésitez pas à augmenter la vitesse de lecture de la vidéo</p>
+                </div>
 
             </div>
         </div>
