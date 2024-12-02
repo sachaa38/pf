@@ -10,34 +10,11 @@ import mongoLogo from "../images/mongoLogo.webp"
 import sassLogo from "../images/sassLogo.webp"
 import gitLogo from "../images/git.webp"
 import github from "../images/githubLogo.webp"
+import rnLogo from "../images/reactN-logo.svg"
+import tsLogo from "../images/tsLogo.webp"
+import expoLogo from "../images/expoLogo.png"
 
 export const projets = [
-    // {
-    //     titre:"Site d'hébergement",
-    //     description:"Dans ce projet, j'ai eu l'opportunité de créer la page d'accueil d'une agence de voyage en utilisant uniquement HTML et CSS. Mon objectif principal était d'intégrer une interface responsive pour le site, en suivant les maquettes fournies via Figma pour les versions mobile, tablette, et desktop. L'un des défis était d'écrire mon propre code HTML et CSS sans recourir aux outils d'exportation automatique de Figma. Cela m'a permis de mieux comprendre la structure du code et la manière d'adapter les styles pour respecter les exigences du design tout en garantissant une flexibilité sur différentes tailles d'écran. Ce projet m'a aidé à renforcer mes compétences en design responsive et m'a permis d'assurer une expérience utilisateur cohérente, peu importe le type d'appareil utilisé.",
-    //     image: photoAccueil,
-    //     competences: "HTML, CSS",
-    //     formation: true,
-    //     id: "0",
-    //     lien: "https://sachaa38.github.io/siteaccueil/"
-    // },
-    // {
-    //     titre:"Site Architecte d'interieur",
-    //     description:"Dans ce projet, j'ai eu pour mission de créer une page web dynamique pour le site d'une architecte d'intérieur, en utilisant JavaScript et en interagissant avec une API. Mon rôle s'est concentré sur le développement du Front-End, en partant du HTML fourni pour construire une page de présentation des travaux de l'architecte. L'une des tâches principales était de gérer les événements utilisateurs et de manipuler les éléments du DOM grâce à JavaScript. J'ai également conçu une page de connexion dédiée à l'administrateur du site, ainsi qu'une modale permettant d'uploader de nouveaux médias. Ces fonctionnalités ont été entièrement développées from scratch, ce qui m'a permis d'approfondir mes compétences en JavaScript. Ce projet m'a offert la première opportunité d'interagir avec un code back-end pour tester les fonctionnalités, et surtout d'apprendre à communiquer avec une API, une compétence essentielle pour les applications web modernes. J'ai utilisé Figma pour accéder aux maquettes, Visual Studio Code pour le développement, et GitHub pour la gestion de version du projet, ce qui m'a permis de travailler de manière structurée et professionnelle.",
-    //     image: photoSophie,
-    //     competences: "HTML, JavaScript",
-    //     formation: true,
-    //     id: "1"
-    // },
-
-    // {
-    //     titre:"Optimisation SEO du site",
-    //     description:"Dans ce projet, j'ai agi en tant que développeur freelance pour optimiser le référencement, la performance et l'accessibilité d'un site web. Mon travail a commencé par l'identification des problèmes de chargement et de référencement en utilisant des outils comme Lighthouse et Wave pour évaluer les performances et l'accessibilité du site. J'ai ensuite élaboré des recommandations pour améliorer la vitesse de chargement, la structure du code, et le référencement. Ces recommandations ont été appliquées en modifiant le code du site, dans le but d'améliorer ses performances et son accessibilité, ce qui a contribué à un meilleur classement dans les moteurs de recherche. Pour clôturer le projet, j'ai créé un rapport détaillant les résultats avant et après les modifications. Ce rapport incluait des captures d'écran des audits, ainsi que des explications sur les changements apportés et leur impact sur le référencement et l'accessibilité du site.",
-    //     image: photoSeo,
-    //     competences: "SEO",
-    //     formation: true,
-    //     id: "2"
-    // },
     {
         titre:"Site de location immobilière",
         description:
@@ -82,7 +59,29 @@ export const projets = [
       tache: ["Création du frontend avec Vite et React", "Création du backend avec Node.js, Express et Mongoose","Mise en place d’un système d'authentification avec bcrypt et JWT","Gestion des opérations CRUD","Intégration de CORS"],
       fonction: ["Ajouter des élèves et gérer leurs informations","Suivre le nombre de cours achetés par chaque élève","Accéder à des statistiques spécifiques pour chaque élève","Planifier des cours et prendre des notes","Afficher les statistiques générales","Implémentation d'un mode nuit"],
       logoComp: [reactLogo, nodeLogo, sassLogo, mongoLogo, gitLogo, github]
-    }
+    },
+    {
+      titre:"Coin Calculator",
+      description:
+          "",
+      video: "",
+      competences: "React Native, Expo, TypeScript",
+      formation: true,
+      desc: "Création d'une application mobile pour la gestion des finances personnelles avec suivi des revenus et des dépenses, sauvegarde locale, et interface utilisateur ergonomique.",
+      id: "6",
+      obj: ["Projet perso", "Développement d'une application mobile pour la gestion financière"],
+      tache : ["Création de l'interface utilisateur avec React Native et Expo",
+  "Mise en place de la navigation avec Expo Router",
+  "Sauvegarde des données avec AsyncStorage",
+  "Gestion des revenus et des dépenses via des modales interactives",
+  "Affichage des statistiques financières et des graphiques"],
+      fonction: ["Ajouter et modifier des revenus",
+  "Enregistrer et catégoriser des dépenses",
+  "Afficher le solde restant et les totaux",
+  "Visualiser la répartition des dépenses sous forme de graphiques",
+  "Naviguer entre les différentes fonctionnalités via un menu ergonomique"],
+      logoComp: [rnLogo, expoLogo, tsLogo]
+  },
 ]
 
 export default projets
@@ -139,5 +138,17 @@ export const competencesData = [
       nom: "MongoDB",
       image: mongoLogo,
       lieu: "Openclassroom"
+    },
+    { nom: "React Native",
+      image: rnLogo,
+      lieu: "Perso"
+    },
+    { nom: "Typescript",
+      image: tsLogo,
+      lieu: "Perso"
+    },
+    { nom: "Expo",
+      image: expoLogo,
+      lieu: "Perso"
     },
   ];
