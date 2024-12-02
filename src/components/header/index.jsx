@@ -35,7 +35,7 @@ function Header() {
                                 </p>
                                 <p>Passionné par ce domaine depuis mon adolescence, je me suis formé et ai déjà pu montrer réalisé de nombreux projets faisant appel à différents outils de développement.
                                 </p>
-                                <p>Je me porte garant du bon fonctionnement de vos <b>sites WEB</b>.
+                                <p>Je me porte garant du bon fonctionnement de vos <b>sites WEB</b> et <b>applications WEB</b>.
                                 </p>
                         </div>
                     </div>
