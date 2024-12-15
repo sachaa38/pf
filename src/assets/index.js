@@ -1,7 +1,7 @@
 import videoTableauDeBord from "../videos/videoTableauDeBord.mp4"
 import videoKasa from "../videos/videoKasa.mp4"
 import videoMonVieuxGrimoire from "../videos/videomonvieuxgrimoire.mp4"
-
+import videoCoinCalculator from "../videos/coinCalulator.mp4"
 import jsLogo from "../images/JavaScript-logo.png"
 import reactLogo from "../images/reactLogo.webp"
 import nodeLogo from "../images/nodeLogo.webp"
@@ -64,7 +64,7 @@ export const projets = [
       titre:"Coin Calculator",
       description:
           "",
-      video: "",
+      video:videoCoinCalculator,
       competences: "React Native, Expo, TypeScript",
       formation: true,
       desc: "Création d'une application mobile pour la gestion des finances personnelles avec suivi des revenus et des dépenses, sauvegarde locale, et interface utilisateur ergonomique.",

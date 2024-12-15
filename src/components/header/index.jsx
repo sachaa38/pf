@@ -19,7 +19,7 @@ function Header() {
                     
                     <p className="name">Sacha Antoniotto</p>
                
-                    <p className="job">Développeur freelance | Junior et motivé</p>
+                    <p className="job">Développeur Web | Junior et motivé</p>
                     <Button />
                     
                 </div>
@@ -31,11 +31,11 @@ function Header() {
                     <div className="barre-v"></div>
                         <div className="p-desc">
                                 <p>Après 3 années passées à faire du recrutement et du commerce dans des société de services, j'ai entammé une 
-                                    reconversion professionnelle en tant que <b>développeur WEB</b>.
+                                    reconversion professionnelle en tant que <b>développeur Web</b>.
                                 </p>
-                                <p>Passionné par ce domaine depuis mon adolescence, je me suis formé et ai déjà pu montrer réalisé de nombreux projets faisant appel à différents outils de développement.
+                                <p>Passionné par ce domaine depuis mon adolescence, je me suis formé et ai déjà pu réalisé de nombreux projets faisant appel à différents outils de développement.
                                 </p>
-                                <p>Je me porte garant du bon fonctionnement de vos <b>sites WEB</b> et <b>applications WEB</b>.
+                                <p>Je me porte garant du bon fonctionnement de vos <b>sites Web</b> et <b>applications Web</b>.
                                 </p>
                         </div>
                     </div>
