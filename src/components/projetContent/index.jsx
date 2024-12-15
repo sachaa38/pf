@@ -39,7 +39,7 @@ function ProjetContent() {
                             <h3>Contexte & Objectif</h3>
                             <div className="divScroll">
                             {projet.obj.map((obj, index) => (
-                                <p>{obj}</p>
+                                <p className="divScrollP">{obj}</p>
                             ))}
                             </div>
                         </div>
@@ -47,7 +47,7 @@ function ProjetContent() {
                             <h3>Tâches réalisées</h3>
                             <div className="divScroll">
                             {projet.tache.map((tache, index) => (
-                                <p>{tache}</p>
+                                <p className="divScrollP">{tache}</p>
                             ))}
                             </div>
                         </div>
@@ -56,7 +56,7 @@ function ProjetContent() {
                                 <h3>Fonctionnalités</h3>
                                 <div className="divScroll">
                                 {projet.fonction.map((fonct, index) => (
-                                    <p>{fonct}</p>
+                                    <p className="divScrollP">{fonct}</p>
                                     
                                 ))}
                                 </div>
