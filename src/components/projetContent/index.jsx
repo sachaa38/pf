@@ -71,6 +71,9 @@ function ProjetContent() {
                 ))}</div>
                 </div>
                 </div>
+                <div className="codeGit">
+                    <p>Lien vers le code du projet : {projet.lien}</p>
+                </div>
                 <div className="divVideo">
                     <h3>Présentation vidéo du projet</h3>
                 <video width="600" controls key={projet.video}>

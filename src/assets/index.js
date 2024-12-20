@@ -28,7 +28,8 @@ export const projets = [
         obj: ["Projet Openclassroom","Refonte totale de la partie front end d'un site de location immobilière"],
         tache: ["Creation des différentes pages","Concevoir des composants React dynamique", "Configurer la navigation","Récuperer les données et les affichées", "Responsive Design"],
         fonction: ["Consulter les informations détaillées de chaque appartement","Parcourir les photos de l’appartement"],
-        logoComp: [reactLogo, sassLogo, gitLogo, github]
+        logoComp: [reactLogo, sassLogo, gitLogo, github],
+        lien: "https://github.com/sachaa38/react.git"
 
     },
     {
@@ -43,7 +44,8 @@ export const projets = [
         obj: ["Projet Openclassroom", "Développement du backend d'un site de notation de livre"],
         tache : ["Création d'un serveur avec Express et connexion à MongoDB","Gestion de la communication entre le serveur et la base de données","Conception des modèles de données avec Mongoose","Implémentation des opérations CRUD","Sécurisation des données et stockage sécurisé","Mise en place d’un système d'authentification avec bcrypt et JWT","Gestion du téléchargement et optimisation des images","Ajout des fonctionnalités pour noter les livres et calculer la note moyenne"],
         fonction: ["Ajouter, modifier et supprimer des livres","Afficher les informations détaillées de chaque livres", "Noter les livres", "Consulter les trois livres les mieux notés"],
-        logoComp: [jsLogo, nodeLogo, mongoLogo, gitLogo, github]
+        logoComp: [jsLogo, nodeLogo, mongoLogo, gitLogo, github],
+        lien: "https://github.com/sachaa38/backend.git"
     },
     {
       titre:"ClassTrack",
@@ -58,7 +60,8 @@ export const projets = [
       obj: ["Projet perso", "Développement d'une application web de gestion de cours"],
       tache: ["Création du frontend avec Vite et React", "Création du backend avec Node.js, Express et Mongoose","Mise en place d’un système d'authentification avec bcrypt et JWT","Gestion des opérations CRUD","Intégration de CORS"],
       fonction: ["Ajouter des élèves et gérer leurs informations","Suivre le nombre de cours achetés par chaque élève","Accéder à des statistiques spécifiques pour chaque élève","Planifier des cours et prendre des notes","Afficher les statistiques générales","Implémentation d'un mode nuit"],
-      logoComp: [reactLogo, nodeLogo, sassLogo, mongoLogo, gitLogo, github]
+      logoComp: [reactLogo, nodeLogo, sassLogo, mongoLogo, gitLogo, github],
+        lien: "https://github.com/sachaa38/appliElevefront.git et https://github.com/sachaa38/appliEleve.git"
     },
     {
       titre:"Coin Calculator",
@@ -80,7 +83,8 @@ export const projets = [
   "Afficher le solde restant et les totaux",
   "Visualiser la répartition des dépenses sous forme de graphiques",
   "Naviguer entre les différentes fonctionnalités via un menu ergonomique"],
-      logoComp: [rnLogo, expoLogo, tsLogo]
+      logoComp: [rnLogo, expoLogo, tsLogo],
+      lien: "https://github.com/sachaa38/ecoApp.git"
   },
 ]
 
