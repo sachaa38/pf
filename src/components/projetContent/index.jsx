@@ -72,7 +72,7 @@ function ProjetContent() {
                 </div>
                 </div>
                 <div className="codeGit">
-                    <p>Lien vers le code du projet : {projet.lien}</p>
+                    <p><b>Lien vers le code du projet :</b> {projet.lien}</p>
                 </div>
                 <div className="divVideo">
                     <h3>Présentation vidéo du projet</h3>
