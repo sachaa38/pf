@@ -1,7 +1,8 @@
 import videoTableauDeBord from "../videos/videoTableauDeBord.mp4"
 import videoKasa from "../videos/videoKasa.mp4"
 import videoMonVieuxGrimoire from "../videos/videomonvieuxgrimoire.mp4"
-import videoCoinCalculator from "../videos/coinCalulator.mp4"
+import videoCoinCalculator from "../videos/coinCalculator.mp4"
+import videoJusticeBalance from "../videos/justiceBalance.mp4"
 import jsLogo from "../images/JavaScript-logo.png"
 import reactLogo from "../images/reactLogo.webp"
 import nodeLogo from "../images/nodeLogo.webp"
@@ -64,7 +65,7 @@ export const projets = [
         lien: "https://github.com/sachaa38/appliElevefront.git et https://github.com/sachaa38/appliEleve.git"
     },
     {
-      titre:"Coin Calculator",
+      titre:"EcoApp",
       description:
           "",
       video:videoCoinCalculator,
@@ -78,7 +79,7 @@ export const projets = [
   "Sauvegarde des données avec AsyncStorage",
   "Gestion des revenus et des dépenses via des modales interactives",
   "Affichage des statistiques financières et des graphiques"],
-      fonction: ["Ajouter et modifier des revenus",
+      fonction: ["Ajouter les prévisions de dépenses","Ajouter et modifier des revenus",
   "Enregistrer et catégoriser des dépenses",
   "Afficher le solde restant et les totaux",
   "Visualiser la répartition des dépenses sous forme de graphiques",
@@ -86,6 +87,32 @@ export const projets = [
       logoComp: [rnLogo, expoLogo, tsLogo],
       lien: "https://github.com/sachaa38/ecoApp.git"
   },
+  {
+    titre:"Justice Balance",
+    description:
+        "",
+    video:videoJusticeBalance,
+    competences: "React Native, Expo, TypeScript",
+    formation: true,
+    desc: "Création d'un jeu mobile dans lequel le joueur incarne un juge. Le but est de juger les accusés et de devenir soit un tyran, soit un bienfaiteur.",
+    id: "7",
+    obj: ["Projet perso", "Développement d'un jeu mobile."],
+    tache : ["Création de l'interface utilisateur avec React Native et Expo",
+"Mise en place des différentes modales",
+"Gestion du fonctionnement du jeu",
+"Influence des différentes statistiques sur les autres statistiques",
+"Prise en compte des boutons et sliders et leurs effets dans le jeu",
+"Sauvegarde des données avec AsyncStorage",
+"Affichage dynamique des statistiques",
+"Affichage des personnages"],
+    fonction: ["Juger les accusés",
+"Influencer les différentes sphères du jeu",
+"Modifier les lois",
+"Construire des bâtiments",
+"Devenir tyran ou bienfaiteur qui offre 2 fins différentes"],
+    logoComp: [rnLogo, expoLogo, tsLogo],
+    lien: "Lien privé"
+},
 ]
 
 export default projets
