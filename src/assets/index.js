@@ -1,5 +1,5 @@
 import videoTableauDeBord from "../videos/videoTableauDeBord.mp4"
-import videoKasa from "../videos/videoKasa.mp4"
+import videoRusse from "../videos/videoRusse.mp4"
 import videoMonVieuxGrimoire from "../videos/videomonvieuxgrimoire.mp4"
 import videoCoinCalculator from "../videos/coinCalculator.mp4"
 import videoJusticeBalance from "../videos/justiceBalance.mp4"
@@ -16,23 +16,33 @@ import tsLogo from "../images/tsLogo.webp"
 import expoLogo from "../images/expoLogo.png"
 
 export const projets = [
-    {
-        titre:"Site de location immobilière",
-        description:
-            "Dans ce projet, j'ai implémenté le front-end d'une application en utilisant React. Mon rôle a consisté à développer la logique de présentation des données et à concevoir les composants React pour la création d'interfaces utilisateur dynamiques. J'ai utilisé React Router pour configurer la navigation entre les différentes pages de l'application. Le projet s'est concentré exclusivement sur le développement front-end, en me basant sur les maquettes fournies et en utilisant des données simulées extraites d'un fichier JSON. J'ai démarré le projet avec Create React App pour simplifier la configuration initiale de l'application React, et j'ai utilisé Node.js pour exécuter du code JavaScript en dehors du navigateur."
-        ,
-        video: videoKasa,
-        competences: "React, SASS, JavaScript",
-        formation: true,
-        desc: "Développement d'une application front-end en React avec une navigation fluide via React Router et des composants dynamiques pour une interface utilisateur moderne.",
-        id: "3",
-        obj: ["Projet Openclassroom","Refonte totale de la partie front end d'un site de location immobilière"],
-        tache: ["Creation des différentes pages","Concevoir des composants React dynamique", "Configurer la navigation","Récuperer les données et les affichées", "Responsive Design"],
-        fonction: ["Consulter les informations détaillées de chaque appartement","Parcourir les photos de l’appartement"],
-        logoComp: [reactLogo, sassLogo, gitLogo, github],
-        lien: "https://github.com/sachaa38/react.git"
-
-    },
+  {
+    titre: "Application mobile d'apprentissage du russe",
+    description:
+        "J'ai développé une application mobile d'apprentissage du russe en utilisant React Native avec Expo. Cette application multilingue (français et anglais) propose un parcours structuré autour de leçons de vocabulaire, de grammaire, et d'exercices pratiques. Une section dédiée au vocabulaire permet de revoir l'essentiel, tandis qu'une page de paramètres permet de réinitialiser sa progression. J'ai utilisé la bibliothèque React Native Paper pour un design cohérent et accessible. L'application intègre également de la monétisation via des publicités, et exploite le stockage local pour sauvegarder les données de progression de l'utilisateur.",
+    video: videoRusse, // à remplacer par le bon lien vidéo si tu en as un
+    competences: "React Native, Expo, TypeScript, React Native Paper, AsyncStorage",
+    formation: false,
+    desc: "Application mobile éducative pour l'apprentissage du russe, avec gestion de la progression utilisateur, interface multilingue et intégration publicitaire.",
+    id: "4",
+    obj: ["Projet personnel", "Créer une application éducative mobile complète"],
+    tache: [
+        "Développement des interfaces avec React Native Paper",
+        "Organisation des leçons en modules (vocabulaire, grammaire, exercices)",
+        "Mise en place d’une navigation fluide avec React Navigation",
+        "Stockage local de la progression via AsyncStorage",
+        "Ajout de la monétisation avec AdMob"
+    ],
+    fonction: [
+        "Consulter et apprendre du vocabulaire russe",
+        "Suivre des leçons structurées avec exercices intégrés",
+        "Basculer entre le français et l’anglais",
+        "Réinitialiser sa progression à tout moment"
+    ],
+    logoComp: [reactLogo, expoLogo, tsLogo], // mets les bons logos ici
+    lien: "Lien non disponible" // si tu as un dépôt
+}
+,
     {
         titre:"Site de notation de livres",
         description:
