@@ -16,9 +16,10 @@ function Description() {
                             Vous trouverez sur ce site une sélection de <b>mes projets</b> réalisés dans le cadre de mes formations et initiatives personnelles.
                           </p>
                           <p>
-                            Passionné par l’informatique depuis mon adolescence, je me suis formé en autodidacte et à travers mes études, et j’ai pu concrétiser de nombreux projets variés : du front-end au back-end, en passant par la data et l’automatisation. Cette sélection reflète une partie de mon travail et de mes compétences.
+                            Passionné par l’informatique depuis mon adolescence, je me suis formé en autodidacte et à travers mes études, et j’ai pu concrétiser plusieurs projets variés, principalement en développement web et automatisation. Je continue aujourd’hui à développer mes compétences en data et IA, et cette sélection reflète mon travail actuel ainsi que mon potentiel dans ces domaines.
                           </p>
                         </div>
+
 
                     </div>
                 </div>
