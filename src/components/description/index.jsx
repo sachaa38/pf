@@ -12,14 +12,14 @@ function Description() {
                     <div className="content-para-barre">
                     <div className="barre-v"></div>
                         <div className="p-desc">
-                                <p>Après 3 années passées à faire du recrutement et du commerce dans des société de services, j'ai entammé une 
-                                    reconversion professionnelle en tant que <b>développeur WEB</b>.
-                                </p>
-                                <p>Passionné par ce domaine depuis mon adolescence, je me suis formé et ai déjà pu montrer réalisé de nombreux projets faisant appel à différents outils de développement.
-                                </p>
-                                <p>Je me porte garant du bon fonctionnement de vos <b>sites WEB</b>.
-                                </p>
+                          <p>
+                            Vous trouverez sur ce site une sélection de <b>mes projets</b> réalisés dans le cadre de mes formations et initiatives personnelles.
+                          </p>
+                          <p>
+                            Passionné par l’informatique depuis mon adolescence, je me suis formé en autodidacte et à travers mes études, et j’ai pu concrétiser de nombreux projets variés : du front-end au back-end, en passant par la data et l’automatisation. Cette sélection reflète une partie de mon travail et de mes compétences.
+                          </p>
                         </div>
+
                     </div>
                 </div>
                 
