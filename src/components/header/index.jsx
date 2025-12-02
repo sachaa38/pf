@@ -30,13 +30,14 @@ function Header() {
                     <div className="content-para-barre">
                     <div className="barre-v"></div>
                         <div className="p-desc">
-                                <p>Après 3 années passées à faire du recrutement et du commerce dans des société de services, j'ai entammé une 
-                                    reconversion professionnelle en tant que <b>développeur Web</b>.
-                                </p>
-                                <p>Passionné par ce domaine depuis mon adolescence, je me suis formé et ai déjà pu réalisé de nombreux projets faisant appel à différents outils de développement.
-                                </p>
-                                <p>Je me porte garant du bon fonctionnement de vos <b>sites Web</b> et <b>applications Web</b>.
-                                </p>
+                                   <p>
+                            Vous trouverez sur ce site une sélection de <b>mes projets</b> réalisés dans le cadre de mes formations et initiatives personnelles.
+                          </p>
+                          <p>
+
+
+                            Passionné par l’informatique depuis mon adolescence, je me suis formé en autodidacte et à travers mes études, et j’ai pu concrétiser plusieurs projets variés, principalement en développement web et developpement d'applications mobile. Je continue aujourd’hui à développer mes compétences en data et IA. Cette sélection reflète mon travail en developpement web et application.
+                          </p>
                         </div>
                     </div>
                 </div>
