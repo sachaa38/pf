@@ -11,12 +11,15 @@ function Description() {
                 <div className="text-description">
                     <div className="content-para-barre">
                     <div className="barre-v"></div>
-                        <div className="p-desc">
+
+                     <div className="p-desc">
                           <p>
                             Vous trouverez sur ce site une sélection de <b>mes projets</b> réalisés dans le cadre de mes formations et initiatives personnelles.
                           </p>
                           <p>
-                            Passionné par l’informatique depuis mon adolescence, je me suis formé en autodidacte et à travers mes études, et j’ai pu concrétiser plusieurs projets variés, principalement en développement web et automatisation. Je continue aujourd’hui à développer mes compétences en data et IA, et cette sélection reflète mon travail actuel ainsi que mon potentiel dans ces domaines.
+
+
+                            Passionné par l’informatique depuis mon adolescence, je me suis formé en autodidacte et à travers mes études, et j’ai pu concrétiser plusieurs projets variés, principalement en développement web et developpement d'applications mobile. Je continue aujourd’hui à développer mes compétences en data et IA. Cette sélection reflète mon travail en developpement web et application.
                           </p>
                         </div>
 
