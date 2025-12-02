@@ -40,7 +40,7 @@ export const projets = [
         "Réinitialiser sa progression à tout moment"
     ],
     logoComp: [reactLogo, expoLogo, tsLogo], // mets les bons logos ici
-    lien: "Lien non disponible" // si tu as un dépôt
+    lien: "https://play.google.com/store/apps/details?id=com.pipou38.testPub"
 }
 ,
     {
