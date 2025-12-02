@@ -6,7 +6,7 @@ function Contact() {
     return (
         <div className="footer">
         <div className="content-contact-card">
-            <h2>Contact</h2>
+            <h2>CONTACT</h2>
             <div className="img-and-text-footer">
             <div className="img-contact">
                 <img src={photopp} alt="Sacha Antoniotto" />

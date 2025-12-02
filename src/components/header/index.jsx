@@ -19,7 +19,7 @@ function Header() {
                     
                     <p className="name">Sacha Antoniotto</p>
                
-                    <p className="job">Développeur Web | Junior et motivé</p>
+                    <p className="job">Mon portfolio</p>
                     <Button />
                     
                 </div>
