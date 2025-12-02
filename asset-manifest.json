@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/pf/static/css/main.9e4c9dd5.css",
+    "main.js": "/pf/static/js/main.ec1d3a86.js",
+    "static/js/453.f706fe85.chunk.js": "/pf/static/js/453.f706fe85.chunk.js",
+    "static/media/justiceBalance.mp4": "/pf/static/media/justiceBalance.9f90e798c15766e2ea0f.mp4",
+    "static/media/videoRusse.mp4": "/pf/static/media/videoRusse.78fc69c80df872a32996.mp4",
+    "static/media/videomonvieuxgrimoire.mp4": "/pf/static/media/videomonvieuxgrimoire.140b1fd0dffeda856192.mp4",
+    "static/media/coinCalculator.mp4": "/pf/static/media/coinCalculator.4ef8f0aa4e281a4dfcce.mp4",
+    "static/media/videoTableauDeBord.mp4": "/pf/static/media/videoTableauDeBord.02385f933195f3ee9f9a.mp4",
+    "static/media/IMG_20230101_152028_285.webp": "/pf/static/media/IMG_20230101_152028_285.2a5c32da2f3b2eb9a7d4.webp",
+    "static/media/reactLogo.webp": "/pf/static/media/reactLogo.9148c9151b12265aedab.webp",
+    "static/media/sassLogo.webp": "/pf/static/media/sassLogo.fb6570b46137cf7e1a37.webp",
+    "static/media/mongoLogo.webp": "/pf/static/media/mongoLogo.d74793c3cf7c683b656d.webp",
+    "static/media/JavaScript-logo.png": "/pf/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png",
+    "static/media/pythonLogo.webp": "/pf/static/media/pythonLogo.4d71c31876293c48fe55.webp",
+    "static/media/nodeLogo.webp": "/pf/static/media/nodeLogo.ab55f1c5987a8f988b93.webp",
+    "static/media/git.webp": "/pf/static/media/git.54739c005a6576c86c0b.webp",
+    "static/media/githubLogo.webp": "/pf/static/media/githubLogo.b17e13aa3ad6c13a6761.webp",
+    "static/media/tsLogo.webp": "/pf/static/media/tsLogo.e3a69e79ecb67356fc4f.webp",
+    "static/media/reactN-logo.svg": "/pf/static/media/reactN-logo.d338e9be5e164e2601da3a64325cc512.svg",
+    "index.html": "/pf/index.html",
+    "main.9e4c9dd5.css.map": "/pf/static/css/main.9e4c9dd5.css.map",
+    "main.ec1d3a86.js.map": "/pf/static/js/main.ec1d3a86.js.map",
+    "453.f706fe85.chunk.js.map": "/pf/static/js/453.f706fe85.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e4c9dd5.css",
+    "static/js/main.ec1d3a86.js"
+  ]
+}
