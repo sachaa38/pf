@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pf/static/css/main.9e4c9dd5.css",
-    "main.js": "/pf/static/js/main.ec1d3a86.js",
+    "main.js": "/pf/static/js/main.0e690894.js",
     "static/js/453.f706fe85.chunk.js": "/pf/static/js/453.f706fe85.chunk.js",
     "static/media/justiceBalance.mp4": "/pf/static/media/justiceBalance.9f90e798c15766e2ea0f.mp4",
     "static/media/videoRusse.mp4": "/pf/static/media/videoRusse.78fc69c80df872a32996.mp4",
@@ -9,6 +9,7 @@
     "static/media/coinCalculator.mp4": "/pf/static/media/coinCalculator.4ef8f0aa4e281a4dfcce.mp4",
     "static/media/videoTableauDeBord.mp4": "/pf/static/media/videoTableauDeBord.02385f933195f3ee9f9a.mp4",
     "static/media/IMG_20230101_152028_285.webp": "/pf/static/media/IMG_20230101_152028_285.2a5c32da2f3b2eb9a7d4.webp",
+    "static/media/SachaPP.jpg": "/pf/static/media/SachaPP.710118aa3248d5d89220.jpg",
     "static/media/reactLogo.webp": "/pf/static/media/reactLogo.9148c9151b12265aedab.webp",
     "static/media/sassLogo.webp": "/pf/static/media/sassLogo.fb6570b46137cf7e1a37.webp",
     "static/media/mongoLogo.webp": "/pf/static/media/mongoLogo.d74793c3cf7c683b656d.webp",
@@ -21,11 +22,11 @@
     "static/media/reactN-logo.svg": "/pf/static/media/reactN-logo.d338e9be5e164e2601da3a64325cc512.svg",
     "index.html": "/pf/index.html",
     "main.9e4c9dd5.css.map": "/pf/static/css/main.9e4c9dd5.css.map",
-    "main.ec1d3a86.js.map": "/pf/static/js/main.ec1d3a86.js.map",
+    "main.0e690894.js.map": "/pf/static/js/main.0e690894.js.map",
     "453.f706fe85.chunk.js.map": "/pf/static/js/453.f706fe85.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e4c9dd5.css",
-    "static/js/main.ec1d3a86.js"
+    "static/js/main.0e690894.js"
   ]
 }
