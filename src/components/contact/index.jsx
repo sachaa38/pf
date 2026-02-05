@@ -1,5 +1,5 @@
 import "./style.css"
-import photopp from "../../images/IMG_20230101_152028_285.webp"
+import photopp from "../../images/SachaPP.jpg"
 
 function Contact() {
 
