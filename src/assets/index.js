@@ -14,9 +14,34 @@ import github from "../images/githubLogo.webp"
 import rnLogo from "../images/reactN-logo.svg"
 import tsLogo from "../images/tsLogo.webp"
 import expoLogo from "../images/expoLogo.png"
+import njsLogo from "../images/NextjsLogo.png"
+import twLogo from "../images/TailwindLogo.png"
+import vercelLogo from "../images/VercelLogo.png"
 
 export const projets = [
   {
+    titre: "Site vitrine pour photographe",
+    description:
+        "Conception et développement d'un site web vitrine haut de gamme pour une photographe professionnelle. Réalisé avec Next.js et Tailwind CSS, le site met l'accent sur l'esthétique et la performance. Il intègre un système de galeries dynamiques (mariages, couples, familles) avec un chargement optimisé des images (Next Image) pour garantir une expérience fluide. L'interface, épurée et minimaliste, souligne le travail artistique de la photographe tout en offrant un tunnel de contact intuitif et une navigation fluide grâce au rendu côté serveur (SSR).",
+    video: "",
+    competences: "Next.js, TypeScript, Tailwind CSS, Vercel",
+    formation: false,
+    desc: "Plateforme web immersive pour photographe, optimisée pour le SEO et l'affichage haute résolution, avec galeries thématiques et interface de contact personnalisée.",
+    id: "3", // Incrémenté par rapport à l'ancien
+    obj: ["Projet client", "Créer une vitrine digitale élégante et performante"],
+    tache: [
+        "Architecture du projet avec Next.js pour un SEO optimal",
+        "Design responsive et minimaliste avec Tailwind CSS",
+        "Mise en place d'un formulaire de contact sécurisé et fonctionnel",
+    ],
+    fonction: [
+        "Navigation par thématiques (Mariages, Portraits, Événements)",
+        "Consultation fluide sur mobile et tablettes",
+    ],
+    logoComp: [njsLogo, twLogo, tsLogo, vercelLogo], // Remplace par tes logos Next/Tailwind
+    lien: "https://www.ekaterinacheliadinova.com/"
+},
+  { 
     titre: "Application mobile d'apprentissage du russe",
     description:
         "J'ai développé une application mobile d'apprentissage du russe en utilisant React Native avec Expo. Cette application multilingue (français et anglais) propose un parcours structuré autour de leçons de vocabulaire, de grammaire, et d'exercices pratiques. Une section dédiée au vocabulaire permet de revoir l'essentiel, tandis qu'une page de paramètres permet de réinitialiser sa progression. J'ai utilisé la bibliothèque React Native Paper pour un design cohérent et accessible. L'application intègre également de la monétisation via des publicités, et exploite le stockage local pour sauvegarder les données de progression de l'utilisateur.",
@@ -190,6 +215,18 @@ export const competencesData = [
     },
     { nom: "Expo",
       image: expoLogo,
+      lieu: "Perso"
+    },
+     { nom: "NextJS",
+      image: njsLogo,
+      lieu: "Perso"
+    },
+     { nom: "Tailwind",
+      image: twLogo,
+      lieu: "Perso"
+    },
+     { nom: "Vercel",
+      image: vercelLogo,
       lieu: "Perso"
     },
   ];

@@ -72,15 +72,17 @@ function ProjetContent() {
                 </div>
                 </div>
                 <div className="codeGit">
-                    <p><b>Lien vers le code du projet :</b> {projet.lien}</p>
+                    <a href={projet.lien} target="_blank" rel="noopener noreferrer"><b>Voir plus</b></a>
                 </div>
-                <div className="divVideo">
+                {projet.video.length !== 0 && (
+                    <div className="divVideo">
                     <h3>Présentation vidéo du projet</h3>
                 <video width="600" controls key={projet.video}>
                     <source src={projet.video} type="video/mp4" />
                     Votre navigateur ne supporte pas la balise vidéo.
                 </video>
-                </div>
+                </div>)}
+                
 
             </div>
         </div>
