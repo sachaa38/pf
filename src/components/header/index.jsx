@@ -36,7 +36,7 @@ function Header() {
                           <p>
 
 
-                            Passionné par l’informatique depuis mon adolescence, je me suis formé en autodidacte et à travers mes études, et j’ai pu concrétiser plusieurs projets variés, principalement en développement web et developpement d'applications mobile. Je continue aujourd’hui à développer mes compétences en data et IA. Cette sélection reflète mon travail en developpement web et application.
+                            Passionné par l’informatique depuis mon adolescence, je me suis formé en autodidacte et à travers mes études, et j’ai pu concrétiser plusieurs projets variés, principalement en développement web et developpement d'applications mobile. Je continue aujourd’hui à développer mes compétences en IA. Cette sélection reflète mon travail en developpement web et application.
                           </p>
                         </div>
                     </div>
